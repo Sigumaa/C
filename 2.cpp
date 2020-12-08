@@ -8,15 +8,12 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    if((0 <= n)&&(n <= 100)){
-        if(n == 9){
-            printf("n is 9\n");
-            led1 = 1;
-        }
-        else{
-            printf("n is not 9\n");
-            led2 = 1;
-        }
+    if(n == 9){
+        printf("n is 9\n");
+        led1 = 1;
+    } else if(0 <= n && n <= 100){
+        printf("n is not 9");
+        led2 = 1;
     }
     else{
         printf("なにか間違えてないかな？\n");
