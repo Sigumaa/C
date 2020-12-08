@@ -2,8 +2,7 @@
 
 Serial pc(USBTX, USBRX);
 
-int main()
-{
+int main() {
     int n;
     scanf("%d", &n);
     if(2 <= n && n <= 100){

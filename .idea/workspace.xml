@@ -7,8 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af6a221e-4daa-41a2-bd72-c4a2372d5a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +43,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -51,7 +57,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607425358923</updated>
-      <workItem from="1607425362793" duration="2569000" />
+      <workItem from="1607425362793" duration="3163000" />
+      <workItem from="1607432859134" duration="2172000" />
     </task>
     <servers />
   </component>
@@ -68,5 +75,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

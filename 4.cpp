@@ -6,12 +6,10 @@ DigitalOut led2(LED2);
 DigitalOut led3(LED3);
 DigitalOut led4(LED4);
 
-int main()
-{
+int main() {
     int n;
     scanf("%d", &n);
-    switch (n)
-    {
+    switch (n) {
         case 1:
             led1 = 1;
             break;

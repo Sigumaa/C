@@ -4,8 +4,7 @@ Serial pc(USBTX, USBRX);
 DigitalOut led1(LED1);
 DigitalOut led2(LED2);
 
-int main()
-{
+int main() {
     int n;
     scanf("%d", &n);
     if(n == 9){
