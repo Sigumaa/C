@@ -8,7 +8,7 @@ DigitalOut led4(LED4);
 
 int main() {
     int n;
-    scanf("%d", &n);
+    pc.scanf("%d", &n);
     switch (n) {
         case 1:
             led1 = 1;
@@ -29,7 +29,7 @@ int main() {
             led4 = 1;
             break;
         default:
-            printf("?\n");
+            pc.printf("?\n");
             break;
     }
 }
