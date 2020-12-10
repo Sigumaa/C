@@ -4,12 +4,11 @@ Serial pc(USBTX, USBRX);
 DigitalOut led1(LED1);
 DigitalOut led2(LED2);
 
-int main()
-{
+int main() {
     int a[5];
     int i;
     for (i = 0; i < 5; i++) {
-        pc.scanf("%d" , &a[i]);
+        pc.scanf("%d" , &a[i]); //シミュレータではpc.があると動きません。
     }
     for (i = 0; i < 5; i++) {
         switch(a[i]) {
