@@ -27,9 +27,9 @@ int main() {
 void swap(int *a, int *b) {
     int exchange;
     exchange = *a; //*aを入れておく
-    *a = *b; //*aを*bにする(日本語弱者でごめんなさい)　・・・①
-    *b = exchange;// *bを*aにする　・・・②
-    //①　②・・・入れ替わってる！
+    *a = *b; //*aを*bにする(日本語弱者でごめんなさい)　・・・１
+    *b = exchange;// *bを*aにする　・・・２
+    //１　２・・・入れ替わってる！
 }
 
 
