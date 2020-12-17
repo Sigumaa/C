@@ -8,7 +8,7 @@ DigitalOut led4(LED4);
 
 int main() {
     int n;
-    pc.scanf("%d", &n);
+    pc.scanf("%d", &n);//シミュレータではpc.を消す
     switch (n) {
         case 1:
             led1 = 1;

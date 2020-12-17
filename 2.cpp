@@ -6,7 +6,7 @@ DigitalOut led2(LED2);
 
 int main() {
     int n;
-    pc.scanf("%d", &n);
+    pc.scanf("%d", &n);//シミュレータではpc.を消す
     if(n == 9){
         pc.printf("n is 9\n");
         led1 = 1;
